@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "if-viewport-size": [
+        "dist/if-viewport-size"
+      ],
+      "if-viewport-size/*": [
+        "dist/if-viewport-size/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[IfViewportSizeDirective] DOM rendering for Large Viewport 1`] = `
+<div
+  id="root2"
+  ng-version="8.2.11"
+>
+  
+  
+  
+  <span>
+    Large viewport
+  </span>
+  
+  
+  <span>
+    Large and medium viewports
+  </span>
+</div>
+`;
+
+exports[`[IfViewportSizeDirective] DOM rendering for Medium Viewport 1`] = `
+<div
+  id="root1"
+  ng-version="8.2.11"
+>
+  
+  
+  <span>
+    Medium viewport
+  </span>
+  
+  
+  <span>
+    Small and medium viewport
+  </span>
+  
+  <span>
+    Large and medium viewports
+  </span>
+</div>
+`;
+
+exports[`[IfViewportSizeDirective] DOM rendering for Small Viewport 1`] = `
+<div
+  id="root0"
+  ng-version="8.2.11"
+>
+  
+  <span>
+    Small viewport
+  </span>
+  
+  
+  
+  <span>
+    Small and medium viewport
+  </span>
+  
+</div>
+`;
